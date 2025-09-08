@@ -1,0 +1,35 @@
+[
+  {
+    "exp_id": "base_text_image",
+    "experiment_mode": "text_image",
+    "multi_modal": true,
+    "image_mode": "normal",
+    "verbal_steer": false,
+    "numerical_steer": false,
+    "system_prompt": "You are a marker location estimator.",
+    "user_prompt_zero_shot": "\nYou are given both an image and a text-based representation of the same stimulus.  \n\nIn both, a red dot appears on a horizontal line\n\nHere is the text based line with a red dot marked as \"\"O\"\":\n{text_representation}\n\nThe left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\nEstimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\n\nDo not explain or reason. Only output the final answer as a number between 0 and 1:\n\nFinal Answer:\n",
+    "experiment_module": "experiments.text_image.marker_location.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/runs/base_text_image",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.1_0.5/marker_loc_0.1_0.5_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.3_0.8/marker_loc_0.3_0.8_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.5_0.9/marker_loc_0.5_0.9_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_image",
+    "experiment_name": "marker_location",
+    "ascii_line_choice": "ascii_line",
+    "text_shift_flag": false,
+    "remapping_test": false,
+    "remapping_test_phase": 1,
+    "process_factor": 0.0,
+    "base_1_text": "\n        You are given a text-based representation of a horizontal line. \n\n        Here is the text based line with a red dot marked as \"\"O\"\":\n        {text_representation}\n        ",
+    "base_1_image": "\n        You are given an image showing a red dot on a horizontal line. \n        ",
+    "base_1_text_image": "\n        You are given both an image and a text-based representation of the same stimulus.  \n        ",
+    "base_2": " \n        In both, a red dot appears on a horizontal line\n\n        Here is the text based line with a red dot marked as \"\"O\"\":\n        {text_representation}\n        ",
+    "base_3": " \n        The left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\n        Estimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\n\n        Do not explain or reason. Only output the final answer as a number between 0 and 1:\n        \n        Final Answer:\n        ",
+    "option_1_vs": "\n        The given data is noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions.     \n    ",
+    "option_1_ns": "\n        The given data is noisy and may contain artifacts. The prior ground truth will be in the range of {value_range}.     \n    "
+  }
+]

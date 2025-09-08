@@ -1,0 +1,35 @@
+[
+  {
+    "exp_date": "090825_3_image",
+    "system_prompt": "You are a marker location estimator.",
+    "experiment_mode": "image",
+    "multi_modal": true,
+    "image_mode": "blurred",
+    "user_prompt_zero_shot": "\nYou are given an image showing a red dot on a horizontal line. \n\nThe images are noisy and may contain artifacts. Take into account all previous observations when estimating.\n\nThe left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\nEstimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\nDo not explain. Only output the final answer as a number between 0 and 1:\n\nFinal Answer:\n",
+    "experiment_module": "experiments.image_studies.marker_location.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/experiment_runs/090825_3_image",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/data/experiment_files/0.1_0.5/marker_loc_0.1_0.5_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/data/experiment_files/0.3_0.8/marker_loc_0.3_0.8_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/data/experiment_files/0.5_0.9/marker_loc_0.5_0.9_100samples.csv"
+    ]
+  },
+  {
+    "llm_provider": "OpenRouter",
+    "DEFAULT_MODELS": [
+      "anthropic/claude-3.7-sonnet"
+    ],
+    "temperature": 0.3,
+    "max_tokens": 25,
+    "num_samples": 50,
+    "accumulate_context": true,
+    "context_window": 10,
+    "block_size": 10,
+    "experiment_function": "run_experiment",
+    "system_prompt": "You are a helpful assistant.",
+    "extra_params": {},
+    "true_column": "ground_truth",
+    "pred_column": "prediction",
+    "exp_date": "040825_text_image_remapping_2"
+  }
+]

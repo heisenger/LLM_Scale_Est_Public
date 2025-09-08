@@ -1,0 +1,37 @@
+factor,llm_model,ablation,modality,prob,model_pretty,ablation_pretty
+Weber,GPT-5 Mini,base_7,text,1.0,GPT 5 Mini,Longer Context
+Weber,anthropic_claude-3.7-sonnet,base_7,text,1.0,Claude 3.7 Sonnet,Longer Context
+Weber,gemma-3-4b-it,base_7,text,1.0,Gemma 3 4B it,Longer Context
+Weber,google_gemini-2.5-flash-lite,base_7,text,1.0,Gemini 2.5 Flash Lite,Longer Context
+Weber,meta-llama_llama-4-maverick,base_7,text,1.0,Llama 4 Maverick,Longer Context
+Weber,microsoft_phi-4-multimodal-instruct,base_7,text,1.0,Phi 4 Multimodal,Longer Context
+Weber,mistralai_mistral-small-3.2-24b-instruct,base_7,text,1.0,Mistral 24B,Longer Context
+Weber,openai_gpt-4o-2024-08-06,base_7,text,1.0,GPT 4o,Longer Context
+Weber,qwen_qwen2.5-vl-32b-instruct,base_7,text,1.0,Qwen2.5 VL 32B,Longer Context
+Weber,GPT-5 Mini,base,text,1.0,GPT 5 Mini,Base
+Weber,anthropic_claude-3.7-sonnet,base,text,1.0,Claude 3.7 Sonnet,Base
+Weber,gemma-3-4b-it,base,text,1.0,Gemma 3 4B it,Base
+Weber,google_gemini-2.5-flash-lite,base,text,1.0,Gemini 2.5 Flash Lite,Base
+Weber,meta-llama_llama-4-maverick,base,text,1.0,Llama 4 Maverick,Base
+Weber,microsoft_phi-4-multimodal-instruct,base,text,1.0,Phi 4 Multimodal,Base
+Weber,mistralai_mistral-small-3.2-24b-instruct,base,text,1.0,Mistral 24B,Base
+Weber,openai_gpt-4o-2024-08-06,base,text,1.0,GPT 4o,Base
+Weber,qwen_qwen2.5-vl-32b-instruct,base,text,1.0,Qwen2.5 VL 32B,Base
+Weber,GPT-5 Mini,base_3,text,1.0,GPT 5 Mini,Noise
+Weber,anthropic_claude-3.7-sonnet,base_3,text,1.0,Claude 3.7 Sonnet,Noise
+Weber,gemma-3-4b-it,base_3,text,1.0,Gemma 3 4B it,Noise
+Weber,google_gemini-2.5-flash-lite,base_3,text,1.0,Gemini 2.5 Flash Lite,Noise
+Weber,meta-llama_llama-4-maverick,base_3,text,1.0,Llama 4 Maverick,Noise
+Weber,microsoft_phi-4-multimodal-instruct,base_3,text,1.0,Phi 4 Multimodal,Noise
+Weber,mistralai_mistral-small-3.2-24b-instruct,base_3,text,1.0,Mistral 24B,Noise
+Weber,openai_gpt-4o-2024-08-06,base_3,text,1.0,GPT 4o,Noise
+Weber,qwen_qwen2.5-vl-32b-instruct,base_3,text,1.0,Qwen2.5 VL 32B,Noise
+Weber,GPT-5 Mini,base_5,text,1.0,GPT 5 Mini,Gradual noise
+Weber,anthropic_claude-3.7-sonnet,base_5,text,1.0,Claude 3.7 Sonnet,Gradual noise
+Weber,gemma-3-4b-it,base_5,text,1.0,Gemma 3 4B it,Gradual noise
+Weber,google_gemini-2.5-flash-lite,base_5,text,1.0,Gemini 2.5 Flash Lite,Gradual noise
+Weber,meta-llama_llama-4-maverick,base_5,text,1.0,Llama 4 Maverick,Gradual noise
+Weber,microsoft_phi-4-multimodal-instruct,base_5,text,1.0,Phi 4 Multimodal,Gradual noise
+Weber,mistralai_mistral-small-3.2-24b-instruct,base_5,text,1.0,Mistral 24B,Gradual noise
+Weber,openai_gpt-4o-2024-08-06,base_5,text,1.0,GPT 4o,Gradual noise
+Weber,qwen_qwen2.5-vl-32b-instruct,base_5,text,1.0,Qwen2.5 VL 32B,Gradual noise

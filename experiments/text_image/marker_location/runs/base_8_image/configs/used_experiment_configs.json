@@ -1,0 +1,41 @@
+[
+  {
+    "exp_id": "base_8_image",
+    "reverse_order": true,
+    "experiment_mode": "image",
+    "multi_modal": true,
+    "image_mode": "normal",
+    "verbal_steer": false,
+    "numerical_steer": false,
+    "prior_steer": false,
+    "system_prompt": "You are a marker location estimator.\n        You are given an image showing a red dot on a horizontal line. \n\n        The left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\n        Estimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\n\n        Do not explain or reason. Only output the final answer as a number after Final Answer:\n",
+    "user_prompt_zero_shot": "\nConsider the image provided.\n\nFinal Answer:\n",
+    "experiment_module": "experiments.text_image.marker_location.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/runs/base_8_image",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.1_0.5/marker_loc_0.1_0.5_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.3_0.8/marker_loc_0.3_0.8_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.5_0.9/marker_loc_0.5_0.9_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_image",
+    "experiment_name": "marker_location",
+    "ascii_line_choice": "ascii_line",
+    "text_shift_flag": false,
+    "remapping_test": false,
+    "remapping_test_phase": 1,
+    "process_factor": 0.0,
+    "base_1_text_system": "\n        You are given a text-based representation of a horizontal line where a red dot is marked as \"\"O\"\"\n\n        The left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\n        Estimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\n        ",
+    "base_1_image_system": "\n        You are given an image showing a red dot on a horizontal line. \n\n        The left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\n        Estimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\n        ",
+    "base_1_text_image_system": "\n        You are given both an image and a text-based description of a horizontal line.\n\n        In both, a red dot appears on a horizontal line\n\n        The left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\n        Estimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\n        ",
+    "base_3_system": " \n        Do not explain or reason. Only output the final answer as a number after Final Answer:\n        ",
+    "base_1_text": "\n        Here is the text-based representation of the line with a red dot marked as \"\"O\"\":\n        {text_representation}\n        ",
+    "base_1_image": "\n        Consider the image provided.\n        ",
+    "base_1_text_image": "\n        Consider the image provided and the text-based representation of the line, where the red dot is marked as \"\"O\"\".\n        {text_representation}\n        ",
+    "base_3": " \n        Final Answer:\n        ",
+    "option_1_vs_system": "\n        The given data is noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions.     \n    ",
+    "option_1_ns_system": "\n        The given data is noisy and may contain artifacts. For 10 previous observations, the values were observed to lie in the range of {value_range}.     \n    ",
+    "option_1_ps_system": "\n        The given data is noisy and may contain artifacts. For 10 previous observations, the values were observed to lie in the range of {value_range}.     \n    "
+  }
+]

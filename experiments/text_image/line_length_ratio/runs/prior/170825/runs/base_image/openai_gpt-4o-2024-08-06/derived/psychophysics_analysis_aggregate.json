@@ -1,0 +1,184 @@
+{
+  "per_range": {
+    "regression_effect": {
+      "long": {
+        "regression_angle": 10.463867222578944,
+        "slope": 0.18468682244542173,
+        "intercept": 0.5902324953675192,
+        "r_squared": 0.08738297802581249,
+        "p_value": 0.03714089458996737,
+        "regression_strength": 0.8153131775545783,
+        "regression_strength_angular": 0.7674696172760236
+      },
+      "medium": {
+        "regression_angle": 23.942176410997597,
+        "slope": 0.4440199613342893,
+        "intercept": 0.4323177402555047,
+        "r_squared": 0.4028112400706618,
+        "p_value": 7.432168182880947e-07,
+        "regression_strength": 0.5559800386657108,
+        "regression_strength_angular": 0.4679516353111645
+      },
+      "short": {
+        "regression_angle": 32.298672884068935,
+        "slope": 0.6321413389180478,
+        "intercept": 0.19706886054629533,
+        "r_squared": 0.5843304218585023,
+        "p_value": 1.0464165426170578e-10,
+        "regression_strength": 0.3678586610819522,
+        "regression_strength_angular": 0.282251713687357
+      }
+    },
+    "weber_law": {
+      "long": {
+        "mean_cv": 0.09880818786463885,
+        "cv_magnitude_correlation": 0.1207553141348993,
+        "bin_magnitudes": [
+          0.54551875,
+          0.63479375,
+          0.72406875,
+          0.7687062499999999,
+          0.81334375,
+          0.8579812499999999
+        ],
+        "coefficient_variations": [
+          0.08099238707340586,
+          0.11151287417722869,
+          0.09337975177742489,
+          0.12962712913042262,
+          0.08577897901582435,
+          0.09155800601352675
+        ],
+        "p_value": 0.8197474464883174
+      },
+      "medium": {
+        "mean_cv": 0.09980092980808651,
+        "cv_magnitude_correlation": -0.6938801132352661,
+        "bin_magnitudes": [
+          0.3569,
+          0.4685,
+          0.5801000000000001,
+          0.6358999999999999,
+          0.6917,
+          0.7475
+        ],
+        "coefficient_variations": [
+          0.11689809517713404,
+          0.14142135623730948,
+          0.07154164935336353,
+          0.10531771450071599,
+          0.09155800601352672,
+          0.07206875756646929
+        ],
+        "p_value": 0.12622092443563285
+      },
+      "short": {
+        "mean_cv": 0.17194566927728616,
+        "cv_magnitude_correlation": -0.22308262585179683,
+        "bin_magnitudes": [
+          0.14551875,
+          0.23479374999999997,
+          0.32406874999999996,
+          0.36870624999999996,
+          0.41334374999999995,
+          0.45798125
+        ],
+        "coefficient_variations": [
+          0.16270283393581322,
+          0.24164230478169096,
+          0.11226038684659176,
+          0.17483039183513832,
+          0.2470685992019913,
+          0.09316949906249122
+        ],
+        "p_value": 0.6709270103577047
+      }
+    },
+    "sequential_effect": [
+      {
+        "range_category": "long",
+        "n_runs": 5,
+        "N_total": 50,
+        "r_resp_mean": 0.053044736504613554,
+        "r_stim_mean": 0.23502816576403168,
+        "r_resp_weighted": 0.10306956508708921,
+        "r_stim_weighted": 0.23502816576403165
+      },
+      {
+        "range_category": "medium",
+        "n_runs": 5,
+        "N_total": 50,
+        "r_resp_mean": -0.17880898719993904,
+        "r_stim_mean": 0.23525030686203605,
+        "r_resp_weighted": -0.18299545422476804,
+        "r_stim_weighted": 0.23525030686203605
+      },
+      {
+        "range_category": "short",
+        "n_runs": 5,
+        "N_total": 50,
+        "r_resp_mean": 0.10623316048217113,
+        "r_stim_mean": 0.2350281657640318,
+        "r_resp_weighted": 0.10816965826075,
+        "r_stim_weighted": 0.23502816576403177
+      }
+    ]
+  },
+  "overall": {
+    "range_effect": {
+      "range_analyses_by_category": {
+        "short": {
+          "slope": 0.6321413389180478,
+          "regression_strength": 0.3678586610819522,
+          "r_squared": 0.5843304218585023,
+          "mean_stimulus_magnitude": 0.30805000000000005
+        },
+        "medium": {
+          "slope": 0.4440199613342893,
+          "regression_strength": 0.5559800386657108,
+          "r_squared": 0.4028112400706618,
+          "mean_stimulus_magnitude": 0.56007
+        },
+        "long": {
+          "slope": 0.18468682244542173,
+          "regression_strength": 0.8153131775545783,
+          "r_squared": 0.08738297802581249,
+          "mean_stimulus_magnitude": 0.7080500000000001
+        }
+      },
+      "correlation_analysis": {
+        "correlation_magnitude_regression": 0.9711755788629864,
+        "p_value": 0.15322307205774022,
+        "interpretation": "Regression strength increases with stimulus magnitude (r=0.971)"
+      },
+      "pairwise_comparison_on_overlap": {
+        "short_vs_medium": {
+          "categories": [
+            "medium",
+            "short"
+          ],
+          "error": "Insufficient data in common bins for t-test.",
+          "t_statistic": NaN,
+          "p_value": NaN,
+          "is_significant": false,
+          "n_overlapping_bins": 0
+        },
+        "short_vs_long": {
+          "error": "No overlapping data found or insufficient data after binning for short vs long."
+        },
+        "medium_vs_long": {
+          "categories": [
+            "long",
+            "medium"
+          ],
+          "t_statistic": -3.6666666666666767,
+          "p_value": 0.16950131892286374,
+          "is_significant": false,
+          "n_overlapping_bins": 2,
+          "mean_long": 0.685,
+          "mean_medium": 0.74
+        }
+      }
+    }
+  }
+}

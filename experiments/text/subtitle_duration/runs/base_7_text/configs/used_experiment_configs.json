@@ -1,0 +1,28 @@
+[
+  {
+    "exp_id": "base_7_text",
+    "context_window": 20,
+    "block_size": 20,
+    "num_samples": 100,
+    "experiment_mode": "text",
+    "multi_modal": false,
+    "audio_mode": "normal",
+    "verbal_steer": false,
+    "numerical_steer": false,
+    "system_prompt": "You are a speech duration estimator. Do not reason. Output only the final answer as one number after Final Answer:",
+    "user_prompt_zero_shot": "\nEstimate how many seconds it takes to say out loud the following text:\n{sentence}\nFinal Answer:\n",
+    "experiment_module": "experiments.text.subtitle_duration.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/LLM_Scale_Est_Public/experiments/text/subtitle_duration/runs/base_7_text",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/LLM_Scale_Est_Public/experiments/text/subtitle_duration/data/AMI_Corpus/experiment_files/1.0_8.0_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/LLM_Scale_Est_Public/experiments/text/subtitle_duration/data/AMI_Corpus/experiment_files/5.0_20.0_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/LLM_Scale_Est_Public/experiments/text/subtitle_duration/data/AMI_Corpus/experiment_files/15.0_50.0_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text",
+    "experiment_name": "subtitle_duration",
+    "experiment_module": "experiments.text.subtitle_duration.experiment_run",
+    "user_prompt_zero_shot": "\nEstimate how many seconds it takes to say out loud the following text:\n{sentence}\nFinal Answer:\n"
+  }
+]

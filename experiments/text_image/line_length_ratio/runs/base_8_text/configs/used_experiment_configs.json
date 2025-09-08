@@ -1,0 +1,37 @@
+[
+  {
+    "exp_id": "base_8_text",
+    "reverse_order": true,
+    "experiment_mode": "text",
+    "multi_modal": false,
+    "image_mode": "normal",
+    "verbal_steer": false,
+    "numerical_steer": false,
+    "prior_steer": false,
+    "system_prompt": "You are a lines length ratio estimator.\n        You are given a text-based representation of two lines. The representation is delimited by vertical bars: |...|. Ignore space characters when considering its length.\n\n        Estimate the ratio of the shorter line to the longer line as a decimal number between 0 and 1.\n\n        Do not explain or reason. Only output the final answer as a number after Final Answer:\n",
+    "user_prompt_zero_shot": "\nHere is the text-based representation of two lines.\n\n{text_representation_1}\n{text_representation_2} \n\nFinal Answer:\n",
+    "experiment_module": "experiments.text_image.line_length_ratio.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/line_length_ratio/runs/base_8_text",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/line_length_ratio/data/experiment_files/0.1_0.5/line_len_ratio_0.1_0.5_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/line_length_ratio/data/experiment_files/0.3_0.8/line_len_ratio_0.3_0.8_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/line_length_ratio/data/experiment_files/0.5_0.9/line_len_ratio_0.5_0.9_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_image",
+    "experiment_name": "line_length_ratio",
+    "ascii_line_choice": "ascii_line",
+    "base_1_text_system": "\n        You are given a text-based representation of two lines. The representation is delimited by vertical bars: |...|. Ignore space characters when considering its length.\n\n        Estimate the ratio of the shorter line to the longer line as a decimal number between 0 and 1.\n        ",
+    "base_1_image_system": "\n        You are given an image of two lines.\n\n        Estimate the ratio of the shorter line to the longer line as a decimal number between 0 and 1.\n        ",
+    "base_1_text_image_system": "\n        You are given both an image and a text-based representation of two lines. \n\n        The text representation is delimited by vertical bars: |...|. Ignore space characters when considering its length.\n\n        Estimate the ratio of the shorter line to the longer line as a decimal number between 0 and 1.\n        ",
+    "base_3_system": " \n        Do not explain or reason. Only output the final answer as a number after Final Answer:\n        ",
+    "base_1_text": "\n        Here is the text-based representation of two lines.\n\n        {text_representation_1}\n        {text_representation_2} \n        ",
+    "base_1_image": "\n        Consider the image provided.\n        ",
+    "base_1_text_image": "\n        Consider the image provided and the text-based representation of two lines. \n        {text_representation_1}\n        {text_representation_2} \n        ",
+    "base_3": " \n        Final Answer:\n        ",
+    "option_1_vs_system": "\n        The given data is noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions.     \n    ",
+    "option_1_ns_system": "\n        The given data is noisy and may contain artifacts. For 10 previous observations, the values were observed to lie in the range of {value_range}.     \n    ",
+    "option_1_ps_system": "\n        The given data is noisy and may contain artifacts. For 10 previous observations, the values were observed to lie in the range of {value_range}.     \n    "
+  }
+]

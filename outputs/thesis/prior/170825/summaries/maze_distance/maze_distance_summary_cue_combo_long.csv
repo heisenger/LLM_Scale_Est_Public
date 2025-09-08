@@ -1,0 +1,217 @@
+llm_model,model_pretty,ablation,ablation_pretty,modality,combo_model,prob,nrmse,w_img
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_4,Short context,text_image,EmpiricalLinear,0.9792493628792164,0.3851413478919953,0.5541257752566556
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_4,Short context,text_image,Equal,0.0203442508816472,0.3823827135347119,0.5
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_4,Short context,text_image,Bayes(range),0.0004063750065412,0.4081729911276001,0.4893940193517186
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_4,Short context,text_image,Bayes(stimulus),1.1232595292839644e-08,0.4114051036031606,0.6043759585999188
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_4,Short context,text_image,EmpiricalLinear,0.9999999999999982,0.44959580014874384,0.8157627013179691
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_4,Short context,text_image,Bayes(stimulus),1.846951432330659e-15,0.573734742458146,0.6577961860517522
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_4,Short context,text_image,Bayes(range),6.231608767095949e-18,0.615270744329032,0.5683250304790726
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_4,Short context,text_image,Equal,2.0848334914723227e-20,0.6185699120143366,0.5
+openai_gpt-4o-2024-08-06,GPT 4o,base_4,Short context,text_image,EmpiricalLinear,0.9976719992250874,0.7437780232596577,0.7320979333301015
+openai_gpt-4o-2024-08-06,GPT 4o,base_4,Short context,text_image,Equal,0.0023278705614486,0.6268841725769136,0.5
+openai_gpt-4o-2024-08-06,GPT 4o,base_4,Short context,text_image,Bayes(stimulus),1.3021134208271618e-07,0.5359131518401146,0.6177820208625707
+openai_gpt-4o-2024-08-06,GPT 4o,base_4,Short context,text_image,Bayes(range),2.121893301023383e-12,0.43740126457438655,0.7573080646193681
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_4,Short context,text_image,Bayes(stimulus),0.999999999976841,0.5214229297863127,0.6016277850966489
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_4,Short context,text_image,EmpiricalLinear,2.3159127121146305e-11,0.7385035639217025,0.07061887340109733
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_4,Short context,text_image,Bayes(range),3.562691835180823e-17,0.7655088914534302,0.39325591855959274
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_4,Short context,text_image,Equal,3.278373018984052e-75,1.9912948488847875,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_4,Short context,text_image,EmpiricalLinear,0.9999999606324704,0.36786939462654117,0.7128492070890498
+openai_gpt-4.1-mini,GPT 4.1 mini,base_4,Short context,text_image,Bayes(range),3.242011275584554e-08,0.42542570375654587,0.5784263153028776
+openai_gpt-4.1-mini,GPT 4.1 mini,base_4,Short context,text_image,Bayes(stimulus),6.946353049884539e-09,0.43316655841308943,0.7179302026158777
+openai_gpt-4.1-mini,GPT 4.1 mini,base_4,Short context,text_image,Equal,1.0639937597400573e-12,0.4507327799770134,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_4,Short context,text_image,EmpiricalLinear,0.9999999999999328,2.4604066681371557,1.5307002399345706
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_4,Short context,text_image,Equal,6.715303945626474e-14,1.2663677608652375,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_4,Short context,text_image,Bayes(stimulus),4.595077144416624e-37,1.6966923368055067,0.20439413920434238
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_4,Short context,text_image,Bayes(range),4.01705512703217e-38,0.8256180311952039,0.09394195650036134
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_4,Short context,text_image,EmpiricalLinear,0.9999982789978524,0.675800155024955,0.8120074245397727
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_4,Short context,text_image,Equal,1.7209284500311433e-06,0.8317476516165495,0.5
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_4,Short context,text_image,Bayes(range),7.369735206743629e-11,0.9758462227948841,0.36730515771662753
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_4,Short context,text_image,Bayes(stimulus),6.6961696217365e-30,1.37676585224869,0.20635856924487936
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_4,Short context,text_image,EmpiricalLinear,0.4373907986904804,0.3192394750542294,0.488332513261357
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_4,Short context,text_image,Equal,0.4294820145582765,0.29266704629203927,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_4,Short context,text_image,Bayes(range),0.1331271818852158,0.2901972104035023,0.5004879910388252
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_4,Short context,text_image,Bayes(stimulus),4.866027181428636e-09,0.2544177129558461,0.6004143520134306
+gemma-3-4b-it,Gemma 3 4B it,base_4,Short context,text_image,EmpiricalLinear,1.0,3.2246303472191955,-1.4711880104595538
+gemma-3-4b-it,Gemma 3 4B it,base_4,Short context,text_image,Equal,4.234743809880525e-41,1.745839696056369,0.5
+gemma-3-4b-it,Gemma 3 4B it,base_4,Short context,text_image,Bayes(range),2.686445091572522e-51,1.4563812340861642,0.3686928909809226
+gemma-3-4b-it,Gemma 3 4B it,base_4,Short context,text_image,Bayes(stimulus),1.1856636190268655e-54,1.513892433569023,0.36376398904334495
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_3,Noise,text_image,Bayes(stimulus),0.994853225497378,0.43566597232703874,0.27712342424894293
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_3,Noise,text_image,Bayes(range),0.0051462927731314,0.46316542339927275,0.2632182993276353
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_3,Noise,text_image,EmpiricalLinear,4.772616607748831e-07,0.6090698918174926,0.2551885565242495
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_3,Noise,text_image,Equal,4.467829597350895e-09,0.699308939915139,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_3,Noise,text_image,EmpiricalLinear,1.0,0.3684624913450358,0.8956792884652345
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_3,Noise,text_image,Bayes(range),8.403691812712477e-19,0.44702277951319447,0.6807647508637533
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_3,Noise,text_image,Equal,1.08982105754677e-30,0.5203699575293411,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_3,Noise,text_image,Bayes(stimulus),3.3891245311647382e-40,0.6237171457544823,0.5193420996312561
+openai_gpt-4o-2024-08-06,GPT 4o,base_3,Noise,text_image,EmpiricalLinear,0.9999954703646986,0.557258383875936,0.8294112986708762
+openai_gpt-4o-2024-08-06,GPT 4o,base_3,Noise,text_image,Equal,4.528529865893063e-06,0.5134725522127745,0.5
+openai_gpt-4o-2024-08-06,GPT 4o,base_3,Noise,text_image,Bayes(range),7.323612651188838e-10,0.38664774269057195,0.6858265156405899
+openai_gpt-4o-2024-08-06,GPT 4o,base_3,Noise,text_image,Bayes(stimulus),3.7307425619379127e-10,0.40222894509395,0.6507184870377837
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_3,Noise,text_image,EmpiricalLinear,0.9996775280632229,0.46554910518576953,0.692329565340702
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_3,Noise,text_image,Bayes(range),0.0003096309116028,0.42312547741321843,0.5332434085723383
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_3,Noise,text_image,Equal,1.189203755978492e-05,0.5071504806472436,0.5
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_3,Noise,text_image,Bayes(stimulus),9.489876144984972e-07,0.5395922504251527,0.5984163468340934
+openai_gpt-4.1-mini,GPT 4.1 mini,base_3,Noise,text_image,EmpiricalLinear,0.9998292961624622,0.331012739742387,0.7603326327927551
+openai_gpt-4.1-mini,GPT 4.1 mini,base_3,Noise,text_image,Bayes(range),0.000163943777404,0.3348860558985659,0.5673165669228104
+openai_gpt-4.1-mini,GPT 4.1 mini,base_3,Noise,text_image,Equal,6.258263711737058e-06,0.3485508291964818,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_3,Noise,text_image,Bayes(stimulus),5.017964220708232e-07,0.42326753722800736,0.7094145832258395
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_3,Noise,text_image,EmpiricalLinear,0.999993357394575,1.4991548191323583,0.5441105827650502
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_3,Noise,text_image,Equal,6.642605425035264e-06,1.0716215610883326,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_3,Noise,text_image,Bayes(stimulus),1.7609385109485058e-25,1.3653766283349626,0.33828638383117304
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_3,Noise,text_image,Bayes(range),1.893407667560478e-37,0.5701219099227864,0.05666272334354644
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_3,Noise,text_image,EmpiricalLinear,0.9999998771882386,0.6296476138998401,0.5622593081224524
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_3,Noise,text_image,Equal,1.2281176146243058e-07,0.8744267757441072,0.5
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_3,Noise,text_image,Bayes(stimulus),5.312489592472892e-22,1.0836134381705715,0.42229052529959105
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_3,Noise,text_image,Bayes(range),5.280006772346681e-23,1.0940084932503669,0.33853572249646274
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_3,Noise,text_image,EmpiricalLinear,0.6974920308512161,0.22886564009507027,0.5759438975204225
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_3,Noise,text_image,Equal,0.2770275284102653,0.23611655236596923,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_3,Noise,text_image,Bayes(range),0.0254801556518362,0.21702834602331023,0.61375131484405
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_3,Noise,text_image,Bayes(stimulus),2.850866823248899e-07,0.24589819494437076,0.5069642023211891
+gemma-3-4b-it,Gemma 3 4B it,base_3,Noise,text_image,EmpiricalLinear,1.0,3.2811273388213262,0.2816347147453835
+gemma-3-4b-it,Gemma 3 4B it,base_3,Noise,text_image,Equal,5.1513628128956286e-39,1.8629119936832144,0.5
+gemma-3-4b-it,Gemma 3 4B it,base_3,Noise,text_image,Bayes(stimulus),1.7978890591095939e-60,1.3722677044590685,0.24183675683097938
+gemma-3-4b-it,Gemma 3 4B it,base_3,Noise,text_image,Bayes(range),2.366785502690808e-63,0.931045129896442,0.1761051408319433
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_2,Numerical steer,text_image,EmpiricalLinear,0.9874212487373508,0.4166019748094351,0.7485988762455644
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_2,Numerical steer,text_image,Bayes(range),0.0067139744019393,0.3471115077113506,0.4715519480965811
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_2,Numerical steer,text_image,Equal,0.0058647758091663,0.35319048591355484,0.5
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_2,Numerical steer,text_image,Bayes(stimulus),1.0515438606261655e-09,0.39276987421641985,0.5985128611673772
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_2,Numerical steer,text_image,EmpiricalLinear,0.9999999999418778,0.32335462402082976,0.8532724417977922
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_2,Numerical steer,text_image,Bayes(range),5.8121989475468295e-11,0.3646892843340264,0.5933380903436589
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_2,Numerical steer,text_image,Equal,1.7054673907007262e-16,0.3774177683705269,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_2,Numerical steer,text_image,Bayes(stimulus),1.3184072448641881e-19,0.3753356876391172,0.5623595618620878
+openai_gpt-4o-2024-08-06,GPT 4o,base_2,Numerical steer,text_image,Bayes(range),0.9850461176161376,0.35057407762624837,0.7452582943995573
+openai_gpt-4o-2024-08-06,GPT 4o,base_2,Numerical steer,text_image,EmpiricalLinear,0.0089679611020059,0.3385075550621883,0.8854667727453326
+openai_gpt-4o-2024-08-06,GPT 4o,base_2,Numerical steer,text_image,Bayes(stimulus),0.0059859212818332,0.33775386297953525,0.6637715935813309
+openai_gpt-4o-2024-08-06,GPT 4o,base_2,Numerical steer,text_image,Equal,2.3182724619174536e-14,0.43393271688892415,0.5
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_2,Numerical steer,text_image,Bayes(range),0.660307661230603,0.3746423111057448,0.7103128987516554
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_2,Numerical steer,text_image,Bayes(stimulus),0.2630170062563456,0.3725568688661701,0.7386383368385027
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_2,Numerical steer,text_image,EmpiricalLinear,0.0766753288385957,0.3940306096742841,0.7751250063267863
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_2,Numerical steer,text_image,Equal,3.674455577320252e-09,0.3808175058907483,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_2,Numerical steer,text_image,EmpiricalLinear,0.9867409522055391,0.3771819037757904,0.7906976354360016
+openai_gpt-4.1-mini,GPT 4.1 mini,base_2,Numerical steer,text_image,Bayes(stimulus),0.0092097256413087,0.4137942778410322,0.7238474863353923
+openai_gpt-4.1-mini,GPT 4.1 mini,base_2,Numerical steer,text_image,Bayes(range),0.0040491340077026,0.41901340882780147,0.5927140480496751
+openai_gpt-4.1-mini,GPT 4.1 mini,base_2,Numerical steer,text_image,Equal,1.8814544944603117e-07,0.4500848824299986,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_2,Numerical steer,text_image,EmpiricalLinear,0.8746781420439952,0.384112360209894,0.42585953640034685
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_2,Numerical steer,text_image,Equal,0.1233731724324171,0.4110739633558683,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_2,Numerical steer,text_image,Bayes(range),0.0019486845718467,0.3625149218699706,0.2317030807435274
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_2,Numerical steer,text_image,Bayes(stimulus),9.517409316236123e-10,0.3249062042424365,0.2385760187077335
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_2,Numerical steer,text_image,Bayes(stimulus),0.9999988277561594,0.42194401836930917,0.46450044127201984
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_2,Numerical steer,text_image,EmpiricalLinear,6.689395563171641e-07,0.42204646093651665,0.6031996296611339
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_2,Numerical steer,text_image,Bayes(range),4.4490196944669745e-07,0.3701819633520708,0.6188970867725013
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_2,Numerical steer,text_image,Equal,5.8402314779850393e-08,0.40981506785830063,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_2,Numerical steer,text_image,EmpiricalLinear,0.9896228405809064,0.2246465473217002,0.45800235051208305
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_2,Numerical steer,text_image,Equal,0.0093612858802095,0.20771406833190217,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_2,Numerical steer,text_image,Bayes(range),0.0010147677868003,0.2052210196825543,0.4857911982521021
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_2,Numerical steer,text_image,Bayes(stimulus),1.1057520837211105e-06,0.2514445537712541,0.5578363590994804
+gemma-3-4b-it,Gemma 3 4B it,base_2,Numerical steer,text_image,EmpiricalLinear,1.0,2.712827339214077,1.739643066200819
+gemma-3-4b-it,Gemma 3 4B it,base_2,Numerical steer,text_image,Equal,2.709062431236862e-26,1.5149445058018765,0.5
+gemma-3-4b-it,Gemma 3 4B it,base_2,Numerical steer,text_image,Bayes(stimulus),7.171029446667029e-43,1.079292976414793,0.3788843610760761
+gemma-3-4b-it,Gemma 3 4B it,base_2,Numerical steer,text_image,Bayes(range),5.6793894785151255e-46,0.8494914326115587,0.18347832783459073
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_5,Gradual noise,text_image,Bayes(range),0.9906555404262324,0.35849667742992336,0.40773203592062085
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_5,Gradual noise,text_image,Equal,0.0085962604374632,0.4363101723370878,0.5
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_5,Gradual noise,text_image,EmpiricalLinear,0.0007096267650641,0.4435774078335347,0.4619087006684426
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_5,Gradual noise,text_image,Bayes(stimulus),3.8572371240280775e-05,0.3892976291329848,0.45641886417252453
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_5,Gradual noise,text_image,EmpiricalLinear,1.0,0.38863521501912646,0.7171207131424563
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_5,Gradual noise,text_image,Bayes(range),9.93005638163736e-17,0.5379059936046521,0.5985741039112756
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_5,Gradual noise,text_image,Equal,1.7693908724499028e-20,0.5661529888872341,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_5,Gradual noise,text_image,Bayes(stimulus),1.9441779457928553e-34,0.7099227867449931,0.5267028208642637
+openai_gpt-4o-2024-08-06,GPT 4o,base_5,Gradual noise,text_image,EmpiricalLinear,0.9999999999930658,0.3273671529801016,0.7750669844616651
+openai_gpt-4o-2024-08-06,GPT 4o,base_5,Gradual noise,text_image,Bayes(range),6.5868471799822485e-12,0.46974595413258896,0.6504423032742533
+openai_gpt-4o-2024-08-06,GPT 4o,base_5,Gradual noise,text_image,Bayes(stimulus),3.472305028271273e-13,0.4498874011427428,0.5862156072382181
+openai_gpt-4o-2024-08-06,GPT 4o,base_5,Gradual noise,text_image,Equal,1.69360825475841e-23,0.5663008084985985,0.5
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_5,Gradual noise,text_image,Bayes(range),0.5952678722599329,0.6408479393924669,0.25188074924301207
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_5,Gradual noise,text_image,EmpiricalLinear,0.2214074560799767,0.6585227534206789,0.009814421907166424
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_5,Gradual noise,text_image,Bayes(stimulus),0.1833246716600903,0.6560112177149223,0.2908898410766677
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_5,Gradual noise,text_image,Equal,1.219020073880562e-92,2.881509241948628,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_5,Gradual noise,text_image,EmpiricalLinear,0.9557732735682984,0.32168723988825254,0.6485937970137973
+openai_gpt-4.1-mini,GPT 4.1 mini,base_5,Gradual noise,text_image,Bayes(range),0.0365510635540749,0.3382903826441219,0.5598835596854106
+openai_gpt-4.1-mini,GPT 4.1 mini,base_5,Gradual noise,text_image,Equal,0.0076756601754985,0.3503726388544945,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_5,Gradual noise,text_image,Bayes(stimulus),2.7021279543297014e-09,0.39540256667544355,0.6467114892152274
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_5,Gradual noise,text_image,EmpiricalLinear,0.9999977792519702,1.5003400868908032,0.4809012372179286
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_5,Gradual noise,text_image,Equal,2.220748029860369e-06,1.1221662215020742,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_5,Gradual noise,text_image,Bayes(stimulus),9.039646181189449e-28,2.0604418688982045,0.38583033966526903
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_5,Gradual noise,text_image,Bayes(range),1.3739442824484948e-33,0.5652462171743547,0.07306125126691657
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_5,Gradual noise,text_image,EmpiricalLinear,0.9999848502200476,0.6160377747078631,0.5800408655735233
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_5,Gradual noise,text_image,Equal,1.5149638342928172e-05,0.9131761382742541,0.5
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_5,Gradual noise,text_image,Bayes(range),1.1840725430939878e-10,0.9777428815404735,0.5028680585205244
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_5,Gradual noise,text_image,Bayes(stimulus),2.3202108039444628e-11,0.9405630270372263,0.48186075336827666
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_5,Gradual noise,text_image,EmpiricalLinear,0.992455673506676,0.21225041003448955,0.5626636527232801
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_5,Gradual noise,text_image,Equal,0.0056768132474909,0.22886705823163844,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_5,Gradual noise,text_image,Bayes(range),0.001867513244272,0.21033238705508264,0.5901362907201072
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_5,Gradual noise,text_image,Bayes(stimulus),1.5610448597316217e-12,0.2638881463288641,0.5434316121586106
+gemma-3-4b-it,Gemma 3 4B it,base_5,Gradual noise,text_image,EmpiricalLinear,1.0,3.112701209006936,-0.7532356082470592
+gemma-3-4b-it,Gemma 3 4B it,base_5,Gradual noise,text_image,Equal,1.0780605788225194e-26,1.8315743841031777,0.5
+gemma-3-4b-it,Gemma 3 4B it,base_5,Gradual noise,text_image,Bayes(stimulus),1.938128098040621e-45,1.66947033716591,0.3556250664501508
+gemma-3-4b-it,Gemma 3 4B it,base_5,Gradual noise,text_image,Bayes(range),2.1953863371038524e-51,0.8661975810551338,0.1195220787638346
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_1,Verbal steer,text_image,Bayes(range),0.8365706742781556,0.3244608715628485,0.5491831394079727
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_1,Verbal steer,text_image,EmpiricalLinear,0.1283406039264122,0.3708231742939387,0.6238451327421431
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_1,Verbal steer,text_image,Equal,0.03508857844616,0.3700520794538387,0.5
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base_1,Verbal steer,text_image,Bayes(stimulus),1.4334927211025198e-07,0.41622528433402606,0.6578125943540146
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_1,Verbal steer,text_image,EmpiricalLinear,0.99951399582628,0.37195689839459856,0.9028367647796712
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_1,Verbal steer,text_image,Bayes(range),0.00048600417372,0.383669926224795,0.6840570686795732
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_1,Verbal steer,text_image,Equal,3.2652928930201993e-31,0.5104508347080908,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base_1,Verbal steer,text_image,Bayes(stimulus),0.0,0.405490157024059,0.6338994531126311
+openai_gpt-4o-2024-08-06,GPT 4o,base_1,Verbal steer,text_image,EmpiricalLinear,0.9999999999891472,0.38963435905816945,0.7049579865194325
+openai_gpt-4o-2024-08-06,GPT 4o,base_1,Verbal steer,text_image,Bayes(range),1.0852751332197833e-11,0.6051709569209917,0.6417753577458121
+openai_gpt-4o-2024-08-06,GPT 4o,base_1,Verbal steer,text_image,Bayes(stimulus),3.918859914213211e-19,0.6726150546617645,0.5548766887573634
+openai_gpt-4o-2024-08-06,GPT 4o,base_1,Verbal steer,text_image,Equal,8.652976695835621e-23,0.7088754469311419,0.5
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_1,Verbal steer,text_image,EmpiricalLinear,0.9999816513385648,0.497324358931895,1.0170298267158904
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_1,Verbal steer,text_image,Bayes(stimulus),1.7841040599986563e-05,0.3926855047392295,0.7705403708487147
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_1,Verbal steer,text_image,Bayes(range),5.076208352023783e-07,0.3980119232670424,0.7305696980410449
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base_1,Verbal steer,text_image,Equal,5.832461235091793e-39,0.5649021452839231,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_1,Verbal steer,text_image,EmpiricalLinear,0.999999608263981,0.35959239469790377,0.7984240226305018
+openai_gpt-4.1-mini,GPT 4.1 mini,base_1,Verbal steer,text_image,Bayes(range),3.917358784469906e-07,0.39295901389457555,0.5676184865461676
+openai_gpt-4.1-mini,GPT 4.1 mini,base_1,Verbal steer,text_image,Equal,1.405136016516967e-13,0.4164264172884033,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base_1,Verbal steer,text_image,Bayes(stimulus),2.2631877912340052e-26,0.4112077856666256,0.4350822404065953
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_1,Verbal steer,text_image,EmpiricalLinear,0.9999999821126418,1.2070793104285409,0.6540084366599256
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_1,Verbal steer,text_image,Equal,1.7887358171231662e-08,0.6860246258794905,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_1,Verbal steer,text_image,Bayes(stimulus),1.969708215673582e-20,0.8856353554434719,0.2253912827171947
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base_1,Verbal steer,text_image,Bayes(range),3.861990852911598e-26,0.6179841531198121,0.07217480786567614
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_1,Verbal steer,text_image,EmpiricalLinear,1.0,0.5609208306332305,0.48700929968439355
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_1,Verbal steer,text_image,Equal,2.560996225223377e-20,0.9451933355451743,0.5
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_1,Verbal steer,text_image,Bayes(range),2.1429051820568423e-32,1.0909388532792652,0.4079311480884902
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base_1,Verbal steer,text_image,Bayes(stimulus),6.988690907159888e-41,1.1889396175320832,0.48427563890413766
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_1,Verbal steer,text_image,Bayes(range),0.506157100498489,0.2240858365605286,0.5956034183184391
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_1,Verbal steer,text_image,EmpiricalLinear,0.4933091586270519,0.24428879067016107,0.5642625282122692
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_1,Verbal steer,text_image,Equal,0.000533740871587,0.23412551935093737,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base_1,Verbal steer,text_image,Bayes(stimulus),2.8720255274532736e-12,0.2989460666510287,0.5656870343933174
+gemma-3-4b-it,Gemma 3 4B it,base_1,Verbal steer,text_image,EmpiricalLinear,0.9999963111707396,2.334254706543697,-0.012411026353965357
+gemma-3-4b-it,Gemma 3 4B it,base_1,Verbal steer,text_image,Equal,3.688829260585662e-06,2.3354638570710504,0.5
+gemma-3-4b-it,Gemma 3 4B it,base_1,Verbal steer,text_image,Bayes(range),5.19668578121643e-25,1.4244367975146837,0.16850987465868558
+gemma-3-4b-it,Gemma 3 4B it,base_1,Verbal steer,text_image,Bayes(stimulus),3.480937307650585e-27,1.9367104823326773,0.3728722458430432
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base,Base,text_image,Bayes(stimulus),0.9999998920695682,0.3726526068670417,0.587142925725828
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base,Base,text_image,EmpiricalLinear,5.921541362968715e-08,0.4356659331327523,0.5505903995429885
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base,Base,text_image,Bayes(range),2.9115430704188442e-08,0.34362337626758027,0.4680979683617448
+google_gemini-2.5-flash-lite,Gemini 2.5 Flash Lite,base,Base,text_image,Equal,1.959958739689935e-08,0.35488646171190286,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base,Base,text_image,EmpiricalLinear,0.999999999982096,0.38599924575194583,0.8380466033372583
+meta-llama_llama-4-maverick,Llama 4 Maverick,base,Base,text_image,Bayes(range),1.79040830240183e-11,0.4575721109588589,0.6427325353385039
+meta-llama_llama-4-maverick,Llama 4 Maverick,base,Base,text_image,Equal,1.914794281006997e-22,0.5204989378946234,0.5
+meta-llama_llama-4-maverick,Llama 4 Maverick,base,Base,text_image,Bayes(stimulus),2.6798480704327074e-37,0.608183403532597,0.5176676085515877
+openai_gpt-4o-2024-08-06,GPT 4o,base,Base,text_image,Bayes(range),0.9987971507548612,0.29727125394546045,0.7237018274204118
+openai_gpt-4o-2024-08-06,GPT 4o,base,Base,text_image,EmpiricalLinear,0.0012028492447074,0.29907858359010775,0.8132780212657902
+openai_gpt-4o-2024-08-06,GPT 4o,base,Base,text_image,Bayes(stimulus),4.3138559806537543e-13,0.3785385838048147,0.6850501582259209
+openai_gpt-4o-2024-08-06,GPT 4o,base,Base,text_image,Equal,5.638407455319386e-23,0.4643188685958942,0.5
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base,Base,text_image,EmpiricalLinear,0.9809432239997264,0.37499830266801176,0.9465329729275322
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base,Base,text_image,Bayes(range),0.0190487445767523,0.41334686367126544,0.7206853046116093
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base,Base,text_image,Bayes(stimulus),7.89893697904739e-06,0.47482595263963867,0.701463240614941
+qwen_qwen2.5-vl-32b-instruct,Qwen2.5 VL 32B,base,Base,text_image,Equal,1.3248654240794445e-07,0.5117748921361123,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base,Base,text_image,EmpiricalLinear,0.9999999998863992,0.382905636775441,0.9303748088935601
+openai_gpt-4.1-mini,GPT 4.1 mini,base,Base,text_image,Bayes(range),1.1360067168353784e-10,0.31832304287006485,0.5879477176894383
+openai_gpt-4.1-mini,GPT 4.1 mini,base,Base,text_image,Equal,6.20609356960329e-17,0.3323915749362122,0.5
+openai_gpt-4.1-mini,GPT 4.1 mini,base,Base,text_image,Bayes(stimulus),5.592963821711652e-17,0.31414271339137506,0.6352576600923233
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base,Base,text_image,Equal,0.8463745222665942,1.2465210677803489,0.5
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base,Base,text_image,EmpiricalLinear,0.1536254777334056,1.22986518318427,0.45093109236952456
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base,Base,text_image,Bayes(stimulus),2.4191971872483356e-16,2.348978230370198,0.4940015458817689
+microsoft_phi-4-multimodal-instruct,Phi 4 Multimodal,base,Base,text_image,Bayes(range),2.7260207611148714e-21,0.5688973053732651,0.06451302822807603
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base,Base,text_image,EmpiricalLinear,1.0,0.4450121856496142,0.46614756604007507
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base,Base,text_image,Equal,1.1217005092463509e-18,0.8979175739161414,0.5
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base,Base,text_image,Bayes(range),6.042422087707236e-28,1.0410035348985107,0.45999667182321957
+mistralai_mistral-small-3.2-24b-instruct,Mistral 24B,base,Base,text_image,Bayes(stimulus),5.153329535712095e-31,1.1028102959725552,0.48528968409912476
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base,Base,text_image,EmpiricalLinear,0.9999991843677084,0.21961119544352595,0.6139626969953126
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base,Base,text_image,Bayes(range),8.15563764136308e-07,0.2036169360940179,0.6703662979869209
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base,Base,text_image,Equal,6.852766762885903e-11,0.22506218765051933,0.5
+anthropic_claude-3.7-sonnet,Claude 3.7 Sonnet,base,Base,text_image,Bayes(stimulus),7.79321311995336e-21,0.2806500956857856,0.48543803489483833
+gemma-3-4b-it,Gemma 3 4B it,base,Base,text_image,EmpiricalLinear,1.0,3.2009648823797106,-0.8399053824496894
+gemma-3-4b-it,Gemma 3 4B it,base,Base,text_image,Equal,1.0449276886079723e-32,1.7844591750651464,0.5
+gemma-3-4b-it,Gemma 3 4B it,base,Base,text_image,Bayes(stimulus),6.600152814765566e-51,1.451655959295581,0.33151055218326975
+gemma-3-4b-it,Gemma 3 4B it,base,Base,text_image,Bayes(range),1.9111182329538946e-56,0.857446368111201,0.12375029339321543

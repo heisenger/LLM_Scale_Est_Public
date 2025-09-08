@@ -1,0 +1,32 @@
+[
+  {
+    "exp_id": "base_1_image",
+    "experiment_mode": "image",
+    "multi_modal": true,
+    "provide_answer": false,
+    "text_mode": "path_text",
+    "image_mode": "normal",
+    "verbal_steer": true,
+    "numerical_steer": false,
+    "system_prompt": "You are a maze distance estimator.",
+    "user_prompt_zero_shot": "\nYou are given an image of a path within a square boundary.\n\nThe given data is noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions.     \n\nEstimate the straight-line (Euclidean) distance in terms of units between the start and the end of the path.\n\nDo not explain or reason. Only output the final answer as a number:\n\nFinal Answer:\n",
+    "experiment_module": "experiments.text_image.maze_distance.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/runs/base_1_image",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/data/experiment_files/1.0_5.0/maze_distance_1.0_5.0_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/data/experiment_files/3.0_7.0/maze_distance_3.0_7.0_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/data/experiment_files/5.0_9.0/maze_distance_5.0_9.0_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_image",
+    "experiment_name": "maze_distance",
+    "base_1_text": "\n        You are given a text-based description of a path within a square boundary.\n\n        The text description of the path is:\n        {text_representation}\n        ",
+    "base_1_image": "\n        You are given an image of a path within a square boundary.\n        ",
+    "base_1_text_image": "\n        You are given both an image and a text-based description of a path within a square boundary.\n        ",
+    "base_2": " \n        In the image the start is marked with a green dot and the end is marked with a red cross.\n\n        The text description of the path is:\n        {text_representation}\n        ",
+    "base_3": " \n        Estimate the straight-line (Euclidean) distance in terms of units between the start and the end of the path.\n\n        Do not explain or reason. Only output the final answer as a number:\n        \n        Final Answer:\n        ",
+    "option_1_vs": "\n        The given data is noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions.     \n    ",
+    "option_1_ns": "\n        The given data is noisy and may contain artifacts. The prior ground truth will be in the range of {value_range}.     \n    "
+  }
+]

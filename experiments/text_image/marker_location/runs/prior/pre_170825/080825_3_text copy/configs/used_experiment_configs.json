@@ -1,0 +1,40 @@
+[
+  {
+    "exp_date": "080825_3_text",
+    "system_prompt": "You are a marker location estimator.",
+    "experiment_mode": "text",
+    "multi_modal": false,
+    "user_prompt_zero_shot": "\nYou are given a text-based representation of a horizontal line. \nThe left end corresponds to 0.0, the right end to 1.0.\n\nHere is the line with a red dot marked as \"\"O\"\":\n{text_representation}\n\nEstimate the horizontal position of the center of the dot as a decimal number between 0 and 1.\n\nDo not reason, directly output the answer as a number after Final Answer:\n\nFinal Answer:\n",
+    "experiment_module": "experiments.image_studies.marker_location.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/experiment_runs/080825_3_text",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/data/experiment_files/0.1_0.5/marker_loc_0.1_0.5_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/data/experiment_files/0.3_0.8/marker_loc_0.3_0.8_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/image_studies/marker_location/data/experiment_files/0.5_0.9/marker_loc_0.5_0.9_100samples.csv"
+    ]
+  },
+  {
+    "llm_provider": "OpenRouter",
+    "DEFAULT_MODELS": [
+      "google/gemini-2.5-flash-lite",
+      "openai/gpt-4.1-mini",
+      "meta-llama/llama-4-maverick",
+      "mistralai/mistral-small-3.2-24b-instruct",
+      "qwen/qwen-vl-plus",
+      "openai/gpt-4o-2024-08-06",
+      "anthropic/claude-3.7-sonnet"
+    ],
+    "temperature": 0.3,
+    "max_tokens": 25,
+    "num_samples": 50,
+    "accumulate_context": true,
+    "context_window": 10,
+    "block_size": 10,
+    "experiment_function": "run_experiment",
+    "system_prompt": "You are a helpful assistant.",
+    "extra_params": {},
+    "true_column": "ground_truth",
+    "pred_column": "prediction",
+    "exp_date": "040825_text_image_remapping_2"
+  }
+]

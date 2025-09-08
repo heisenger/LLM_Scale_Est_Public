@@ -1,0 +1,27 @@
+[
+  {
+    "exp_id": "130825_text_image",
+    "system_prompt": "You are a path distance estimator.",
+    "experiment_mode": "text_image",
+    "multi_modal": true,
+    "provide_answer": false,
+    "text_mode": "path_text",
+    "user_prompt_zero_shot": "\nDo not reason or calculate, directly output the answer as a number after Final Answer:\n\nYou are given both an image and a text-based representation of a path within a square boundary.\n\nThe text representation of the path is:\n{text_representation}\n\nEstimate the straight-line (Euclidean) distance between the start ('0') and the end ('x').\nFinal Answer:\n",
+    "experiment_module": "experiments.text_image.maze_distance.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/runs/130825_text_image",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/data/experiment_files/1.0_5.0/maze_distance_1.0_5.0_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/data/experiment_files/3.0_7.0/maze_distance_3.0_7.0_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/maze_distance/data/experiment_files/5.0_9.0/maze_distance_5.0_9.0_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_image",
+    "experiment_name": "maze_distance",
+    "text_image_prompt": "\nDo not reason or calculate, directly output the answer as a number after Final Answer:\n\nYou are given both an image and a text-based representation of a path within a square boundary.\n\nThe text representation of the path is:\n{text_representation}\n\nEstimate the straight-line (Euclidean) distance between the start ('0') and the end ('x').\nFinal Answer:\n",
+    "ascii_image_prompt": "\nDo not reason or calculate, directly output the answer as a number after Final Answer:\n\nYou are given both an image and a text-based representation of a path within a square boundary.\n\nThe text based representation is a grid of characters representing a 2D space. The grid is aligned on a square lattice where each adjacent step (up, down, left, or right) corresponds to a distance of 0.25 units.\n- `.` represents an empty location.\n- `#` marks the path.\n{text_representation}\n\nEstimate the straight-line (Euclidean) distance between the start ('0') and the end ('x').\nFinal Answer:\n",
+    "text_prompt": "\nDo not reason or calculate, directly output the answer as a number after Final Answer:\n\nYou are given a text-based representation of a path within a square boundary.\n\nThe text representation of the path is:\n{text_representation}\n\nEstimate the straight-line (Euclidean) distance between the start ('0') and the end ('x').\nFinal Answer:\n",
+    "ascii_prompt": "\nDo not reason or calculate, directly output the answer as a number after Final Answer:\n\nYou are given a text-based representation of a path within a square boundary.\n\nThe text based representation is a grid of characters representing a 2D space. The grid is aligned on a square lattice where each adjacent step (up, down, left, or right) corresponds to a distance of 0.25 units.\n- `.` represents an empty location.\n- `#` marks the path.\n{text_representation}\n\nEstimate the straight-line (Euclidean) distance between the start ('0') and the end ('x').\nFinal Answer:\n",
+    "image_prompt": "\nDo not reason or calculate, directly output the answer as a number after Final Answer:\n\nYou are given an image of a path within a square boundary.\n\nEstimate the straight-line (Euclidean) distance between the start ('0') and the end ('x').\nFinal Answer:\n"
+  }
+]

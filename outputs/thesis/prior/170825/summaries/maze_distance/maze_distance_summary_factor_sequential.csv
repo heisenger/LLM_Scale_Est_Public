@@ -1,0 +1,163 @@
+factor,llm_model,ablation,modality,prob,model_pretty,ablation_pretty
+Sequential,anthropic_claude-3.7-sonnet,base_1,image,0.6191423701148824,Claude 3.7 Sonnet,Verbal steer
+Sequential,gemma-3-4b-it,base_1,image,3.129686574000018e-13,Gemma 3 4B it,Verbal steer
+Sequential,google_gemini-2.5-flash-lite,base_1,image,0.2359750076787354,Gemini 2.5 Flash Lite,Verbal steer
+Sequential,meta-llama_llama-4-maverick,base_1,image,0.8338892621934315,Llama 4 Maverick,Verbal steer
+Sequential,microsoft_phi-4-multimodal-instruct,base_1,image,0.27679275293464733,Phi 4 Multimodal,Verbal steer
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_1,image,0.2632721310864555,Mistral 24B,Verbal steer
+Sequential,openai_gpt-4.1-mini,base_1,image,0.3117879764311236,GPT 4.1 mini,Verbal steer
+Sequential,openai_gpt-4o-2024-08-06,base_1,image,0.22566798836471352,GPT 4o,Verbal steer
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_1,image,0.007269508338798138,Qwen2.5 VL 32B,Verbal steer
+Sequential,anthropic_claude-3.7-sonnet,base_1,text,0.08112685370483959,Claude 3.7 Sonnet,Verbal steer
+Sequential,gemma-3-4b-it,base_1,text,0.1813204824228562,Gemma 3 4B it,Verbal steer
+Sequential,google_gemini-2.5-flash-lite,base_1,text,0.2272333862357681,Gemini 2.5 Flash Lite,Verbal steer
+Sequential,meta-llama_llama-4-maverick,base_1,text,0.016705563358989345,Llama 4 Maverick,Verbal steer
+Sequential,microsoft_phi-4-multimodal-instruct,base_1,text,0.1680731236806993,Phi 4 Multimodal,Verbal steer
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_1,text,0.3068545706516225,Mistral 24B,Verbal steer
+Sequential,openai_gpt-4.1-mini,base_1,text,0.016200203715782107,GPT 4.1 mini,Verbal steer
+Sequential,openai_gpt-4o-2024-08-06,base_1,text,0.5531884554136838,GPT 4o,Verbal steer
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_1,text,0.3204028074660855,Qwen2.5 VL 32B,Verbal steer
+Sequential,anthropic_claude-3.7-sonnet,base_1,text_image,0.0820237840674839,Claude 3.7 Sonnet,Verbal steer
+Sequential,gemma-3-4b-it,base_1,text_image,0.0012228436639974143,Gemma 3 4B it,Verbal steer
+Sequential,google_gemini-2.5-flash-lite,base_1,text_image,0.297337715975939,Gemini 2.5 Flash Lite,Verbal steer
+Sequential,meta-llama_llama-4-maverick,base_1,text_image,0.2880102371250604,Llama 4 Maverick,Verbal steer
+Sequential,microsoft_phi-4-multimodal-instruct,base_1,text_image,0.21091410576548902,Phi 4 Multimodal,Verbal steer
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_1,text_image,0.00472243560186507,Mistral 24B,Verbal steer
+Sequential,openai_gpt-4.1-mini,base_1,text_image,0.29563461251586864,GPT 4.1 mini,Verbal steer
+Sequential,openai_gpt-4o-2024-08-06,base_1,text_image,0.4068714021559173,GPT 4o,Verbal steer
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_1,text_image,0.32963326753933037,Qwen2.5 VL 32B,Verbal steer
+Sequential,anthropic_claude-3.7-sonnet,base_2,image,0.01742212341971278,Claude 3.7 Sonnet,Numerical steer
+Sequential,gemma-3-4b-it,base_2,image,3.33042859038222e-15,Gemma 3 4B it,Numerical steer
+Sequential,google_gemini-2.5-flash-lite,base_2,image,0.008547454014936083,Gemini 2.5 Flash Lite,Numerical steer
+Sequential,meta-llama_llama-4-maverick,base_2,image,0.6372425917882177,Llama 4 Maverick,Numerical steer
+Sequential,microsoft_phi-4-multimodal-instruct,base_2,image,0.01340582552381011,Phi 4 Multimodal,Numerical steer
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_2,image,0.00011079850644904075,Mistral 24B,Numerical steer
+Sequential,openai_gpt-4.1-mini,base_2,image,0.010501452587386937,GPT 4.1 mini,Numerical steer
+Sequential,openai_gpt-4o-2024-08-06,base_2,image,2.447603250913369e-05,GPT 4o,Numerical steer
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_2,image,3.339031306516535e-05,Qwen2.5 VL 32B,Numerical steer
+Sequential,anthropic_claude-3.7-sonnet,base_2,text,0.003488326701348559,Claude 3.7 Sonnet,Numerical steer
+Sequential,gemma-3-4b-it,base_2,text,0.00025032253871499496,Gemma 3 4B it,Numerical steer
+Sequential,google_gemini-2.5-flash-lite,base_2,text,1.0735664784700258e-05,Gemini 2.5 Flash Lite,Numerical steer
+Sequential,meta-llama_llama-4-maverick,base_2,text,2.4966483431711037e-18,Llama 4 Maverick,Numerical steer
+Sequential,microsoft_phi-4-multimodal-instruct,base_2,text,7.204391228300036e-13,Phi 4 Multimodal,Numerical steer
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_2,text,1.2988980746932858e-11,Mistral 24B,Numerical steer
+Sequential,openai_gpt-4.1-mini,base_2,text,0.000906493877410108,GPT 4.1 mini,Numerical steer
+Sequential,openai_gpt-4o-2024-08-06,base_2,text,0.00013827591379916355,GPT 4o,Numerical steer
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_2,text,1.043351651940235e-06,Qwen2.5 VL 32B,Numerical steer
+Sequential,anthropic_claude-3.7-sonnet,base_2,text_image,0.014986260671782728,Claude 3.7 Sonnet,Numerical steer
+Sequential,gemma-3-4b-it,base_2,text_image,1.8553590765873948e-11,Gemma 3 4B it,Numerical steer
+Sequential,google_gemini-2.5-flash-lite,base_2,text_image,0.015239479789335979,Gemini 2.5 Flash Lite,Numerical steer
+Sequential,meta-llama_llama-4-maverick,base_2,text_image,0.4700338137783299,Llama 4 Maverick,Numerical steer
+Sequential,microsoft_phi-4-multimodal-instruct,base_2,text_image,0.0009208705585134199,Phi 4 Multimodal,Numerical steer
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_2,text_image,9.908843998153089e-11,Mistral 24B,Numerical steer
+Sequential,openai_gpt-4.1-mini,base_2,text_image,0.4543177912014787,GPT 4.1 mini,Numerical steer
+Sequential,openai_gpt-4o-2024-08-06,base_2,text_image,2.6275970474448687e-10,GPT 4o,Numerical steer
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_2,text_image,7.41583721181634e-09,Qwen2.5 VL 32B,Numerical steer
+Sequential,anthropic_claude-3.7-sonnet,base_3,image,0.14440442879786308,Claude 3.7 Sonnet,Noise
+Sequential,gemma-3-4b-it,base_3,image,1.1623255538985142e-07,Gemma 3 4B it,Noise
+Sequential,google_gemini-2.5-flash-lite,base_3,image,0.3229676481656632,Gemini 2.5 Flash Lite,Noise
+Sequential,meta-llama_llama-4-maverick,base_3,image,0.21221875587077912,Llama 4 Maverick,Noise
+Sequential,microsoft_phi-4-multimodal-instruct,base_3,image,0.27878464521123725,Phi 4 Multimodal,Noise
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_3,image,0.2970185261298355,Mistral 24B,Noise
+Sequential,openai_gpt-4.1-mini,base_3,image,0.07931917387089664,GPT 4.1 mini,Noise
+Sequential,openai_gpt-4o-2024-08-06,base_3,image,0.030116893485475017,GPT 4o,Noise
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_3,image,0.1319296288960901,Qwen2.5 VL 32B,Noise
+Sequential,anthropic_claude-3.7-sonnet,base_3,text_image,0.07115922497734554,Claude 3.7 Sonnet,Noise
+Sequential,gemma-3-4b-it,base_3,text_image,3.3349700832222576e-33,Gemma 3 4B it,Noise
+Sequential,google_gemini-2.5-flash-lite,base_3,text_image,0.8581992689909342,Gemini 2.5 Flash Lite,Noise
+Sequential,meta-llama_llama-4-maverick,base_3,text_image,0.1253408911655607,Llama 4 Maverick,Noise
+Sequential,microsoft_phi-4-multimodal-instruct,base_3,text_image,0.2845586767049315,Phi 4 Multimodal,Noise
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_3,text_image,0.1517724422448176,Mistral 24B,Noise
+Sequential,openai_gpt-4.1-mini,base_3,text_image,0.21629082668089578,GPT 4.1 mini,Noise
+Sequential,openai_gpt-4o-2024-08-06,base_3,text_image,0.4023121402197783,GPT 4o,Noise
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_3,text_image,0.23947369310442077,Qwen2.5 VL 32B,Noise
+Sequential,anthropic_claude-3.7-sonnet,base_4,image,0.3858428960600746,Claude 3.7 Sonnet,Short context
+Sequential,gemma-3-4b-it,base_4,image,0.3949979970509721,Gemma 3 4B it,Short context
+Sequential,google_gemini-2.5-flash-lite,base_4,image,0.4712714490841449,Gemini 2.5 Flash Lite,Short context
+Sequential,meta-llama_llama-4-maverick,base_4,image,0.3167581841198197,Llama 4 Maverick,Short context
+Sequential,microsoft_phi-4-multimodal-instruct,base_4,image,0.28653955168412215,Phi 4 Multimodal,Short context
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_4,image,0.25004789526339677,Mistral 24B,Short context
+Sequential,openai_gpt-4.1-mini,base_4,image,0.13030110141800247,GPT 4.1 mini,Short context
+Sequential,openai_gpt-4o-2024-08-06,base_4,image,0.32677391613754997,GPT 4o,Short context
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_4,image,0.30800280547763564,Qwen2.5 VL 32B,Short context
+Sequential,anthropic_claude-3.7-sonnet,base_4,text,0.16629347663398447,Claude 3.7 Sonnet,Short context
+Sequential,gemma-3-4b-it,base_4,text,0.23671975621509214,Gemma 3 4B it,Short context
+Sequential,google_gemini-2.5-flash-lite,base_4,text,0.2544324295188685,Gemini 2.5 Flash Lite,Short context
+Sequential,meta-llama_llama-4-maverick,base_4,text,0.18708612250053244,Llama 4 Maverick,Short context
+Sequential,microsoft_phi-4-multimodal-instruct,base_4,text,0.27744452424464383,Phi 4 Multimodal,Short context
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_4,text,0.30688974385811146,Mistral 24B,Short context
+Sequential,openai_gpt-4.1-mini,base_4,text,0.4663256728362099,GPT 4.1 mini,Short context
+Sequential,openai_gpt-4o-2024-08-06,base_4,text,0.6572357868396809,GPT 4o,Short context
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_4,text,0.10592935744203175,Qwen2.5 VL 32B,Short context
+Sequential,anthropic_claude-3.7-sonnet,base_4,text_image,0.969617270968096,Claude 3.7 Sonnet,Short context
+Sequential,gemma-3-4b-it,base_4,text_image,3.322976197493444e-11,Gemma 3 4B it,Short context
+Sequential,google_gemini-2.5-flash-lite,base_4,text_image,0.6159296907569797,Gemini 2.5 Flash Lite,Short context
+Sequential,meta-llama_llama-4-maverick,base_4,text_image,0.3403567102548228,Llama 4 Maverick,Short context
+Sequential,microsoft_phi-4-multimodal-instruct,base_4,text_image,0.2750616540826526,Phi 4 Multimodal,Short context
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_4,text_image,0.3420486756910888,Mistral 24B,Short context
+Sequential,openai_gpt-4.1-mini,base_4,text_image,0.29157835390763226,GPT 4.1 mini,Short context
+Sequential,openai_gpt-4o-2024-08-06,base_4,text_image,0.4627248498998052,GPT 4o,Short context
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_4,text_image,0.039167634436986364,Qwen2.5 VL 32B,Short context
+Sequential,anthropic_claude-3.7-sonnet,base_5,image,0.27947538571067804,Claude 3.7 Sonnet,Gradual noise
+Sequential,gemma-3-4b-it,base_5,image,1.7395870911130303e-06,Gemma 3 4B it,Gradual noise
+Sequential,google_gemini-2.5-flash-lite,base_5,image,0.29793875719146434,Gemini 2.5 Flash Lite,Gradual noise
+Sequential,meta-llama_llama-4-maverick,base_5,image,0.4729763650520948,Llama 4 Maverick,Gradual noise
+Sequential,microsoft_phi-4-multimodal-instruct,base_5,image,0.27202063384503644,Phi 4 Multimodal,Gradual noise
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_5,image,0.35065668927706795,Mistral 24B,Gradual noise
+Sequential,openai_gpt-4.1-mini,base_5,image,0.21460875269184979,GPT 4.1 mini,Gradual noise
+Sequential,openai_gpt-4o-2024-08-06,base_5,image,0.1899689641902766,GPT 4o,Gradual noise
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_5,image,0.36720846458777,Qwen2.5 VL 32B,Gradual noise
+Sequential,anthropic_claude-3.7-sonnet,base_5,text_image,0.01437261941543814,Claude 3.7 Sonnet,Gradual noise
+Sequential,gemma-3-4b-it,base_5,text_image,8.485392768483485e-25,Gemma 3 4B it,Gradual noise
+Sequential,google_gemini-2.5-flash-lite,base_5,text_image,0.2904221218415864,Gemini 2.5 Flash Lite,Gradual noise
+Sequential,meta-llama_llama-4-maverick,base_5,text_image,0.2246827728490463,Llama 4 Maverick,Gradual noise
+Sequential,microsoft_phi-4-multimodal-instruct,base_5,text_image,0.25955842853209093,Phi 4 Multimodal,Gradual noise
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_5,text_image,0.045556151279429934,Mistral 24B,Gradual noise
+Sequential,openai_gpt-4.1-mini,base_5,text_image,0.1795438505343219,GPT 4.1 mini,Gradual noise
+Sequential,openai_gpt-4o-2024-08-06,base_5,text_image,0.952480741495723,GPT 4o,Gradual noise
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_5,text_image,0.3481716303866979,Qwen2.5 VL 32B,Gradual noise
+Sequential,anthropic_claude-3.7-sonnet,base,image,0.3224816107314923,Claude 3.7 Sonnet,Base
+Sequential,gemma-3-4b-it,base,image,1.5448931118737404e-06,Gemma 3 4B it,Base
+Sequential,google_gemini-2.5-flash-lite,base,image,0.0692995670927647,Gemini 2.5 Flash Lite,Base
+Sequential,meta-llama_llama-4-maverick,base,image,0.9007083621382377,Llama 4 Maverick,Base
+Sequential,microsoft_phi-4-multimodal-instruct,base,image,0.09269516027593729,Phi 4 Multimodal,Base
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base,image,0.29514366826941263,Mistral 24B,Base
+Sequential,openai_gpt-4.1-mini,base,image,0.3511799541299147,GPT 4.1 mini,Base
+Sequential,openai_gpt-4o-2024-08-06,base,image,0.029617989089562244,GPT 4o,Base
+Sequential,qwen_qwen2.5-vl-32b-instruct,base,image,0.08299340449471453,Qwen2.5 VL 32B,Base
+Sequential,anthropic_claude-3.7-sonnet,base,text,0.22884687226496708,Claude 3.7 Sonnet,Base
+Sequential,gemma-3-4b-it,base,text,0.1970226275173127,Gemma 3 4B it,Base
+Sequential,google_gemini-2.5-flash-lite,base,text,0.2396327622903794,Gemini 2.5 Flash Lite,Base
+Sequential,meta-llama_llama-4-maverick,base,text,0.01802578176724955,Llama 4 Maverick,Base
+Sequential,microsoft_phi-4-multimodal-instruct,base,text,0.17829950951508242,Phi 4 Multimodal,Base
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base,text,0.2680934124478832,Mistral 24B,Base
+Sequential,openai_gpt-4.1-mini,base,text,0.27221427116016256,GPT 4.1 mini,Base
+Sequential,openai_gpt-4o-2024-08-06,base,text,0.7406755848604379,GPT 4o,Base
+Sequential,qwen_qwen2.5-vl-32b-instruct,base,text,0.2498564458661221,Qwen2.5 VL 32B,Base
+Sequential,anthropic_claude-3.7-sonnet,base,text_image,0.02376294825417901,Claude 3.7 Sonnet,Base
+Sequential,gemma-3-4b-it,base,text_image,2.579789949046083e-31,Gemma 3 4B it,Base
+Sequential,google_gemini-2.5-flash-lite,base,text_image,0.2739179317422178,Gemini 2.5 Flash Lite,Base
+Sequential,meta-llama_llama-4-maverick,base,text_image,0.03639780547596597,Llama 4 Maverick,Base
+Sequential,microsoft_phi-4-multimodal-instruct,base,text_image,0.4491769740473676,Phi 4 Multimodal,Base
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base,text_image,0.008843677572528422,Mistral 24B,Base
+Sequential,openai_gpt-4.1-mini,base,text_image,0.3751512301059747,GPT 4.1 mini,Base
+Sequential,openai_gpt-4o-2024-08-06,base,text_image,0.00892969302117143,GPT 4o,Base
+Sequential,qwen_qwen2.5-vl-32b-instruct,base,text_image,0.2350125152709534,Qwen2.5 VL 32B,Base
+Sequential,anthropic_claude-3.7-sonnet,base_3,text,0.22884687226496708,Claude 3.7 Sonnet,Noise
+Sequential,gemma-3-4b-it,base_3,text,0.1970226275173127,Gemma 3 4B it,Noise
+Sequential,google_gemini-2.5-flash-lite,base_3,text,0.2396327622903794,Gemini 2.5 Flash Lite,Noise
+Sequential,meta-llama_llama-4-maverick,base_3,text,0.01802578176724955,Llama 4 Maverick,Noise
+Sequential,microsoft_phi-4-multimodal-instruct,base_3,text,0.17829950951508242,Phi 4 Multimodal,Noise
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_3,text,0.2680934124478832,Mistral 24B,Noise
+Sequential,openai_gpt-4.1-mini,base_3,text,0.27221427116016256,GPT 4.1 mini,Noise
+Sequential,openai_gpt-4o-2024-08-06,base_3,text,0.7406755848604379,GPT 4o,Noise
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_3,text,0.2498564458661221,Qwen2.5 VL 32B,Noise
+Sequential,anthropic_claude-3.7-sonnet,base_5,text,0.22884687226496708,Claude 3.7 Sonnet,Gradual noise
+Sequential,gemma-3-4b-it,base_5,text,0.1970226275173127,Gemma 3 4B it,Gradual noise
+Sequential,google_gemini-2.5-flash-lite,base_5,text,0.2396327622903794,Gemini 2.5 Flash Lite,Gradual noise
+Sequential,meta-llama_llama-4-maverick,base_5,text,0.01802578176724955,Llama 4 Maverick,Gradual noise
+Sequential,microsoft_phi-4-multimodal-instruct,base_5,text,0.17829950951508242,Phi 4 Multimodal,Gradual noise
+Sequential,mistralai_mistral-small-3.2-24b-instruct,base_5,text,0.2680934124478832,Mistral 24B,Gradual noise
+Sequential,openai_gpt-4.1-mini,base_5,text,0.27221427116016256,GPT 4.1 mini,Gradual noise
+Sequential,openai_gpt-4o-2024-08-06,base_5,text,0.7406755848604379,GPT 4o,Gradual noise
+Sequential,qwen_qwen2.5-vl-32b-instruct,base_5,text,0.2498564458661221,Qwen2.5 VL 32B,Gradual noise

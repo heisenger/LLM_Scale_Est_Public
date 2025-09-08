@@ -1,0 +1,505 @@
+experiments:
+  # - class: AudioSpeechDuration
+  #   params:
+  #     exp_id: base_text_audio
+  #     experiment_mode: text_audio
+  #     audio_mode: normal
+  # - class: AudioSpeechDuration
+  #   params:
+  #     exp_id: base_text
+  #     experiment_mode: text
+  #     audio_mode: normal
+  # - class: AudioSpeechDuration
+  #   params:
+  #     exp_id: base_audio
+  #     experiment_mode: audio
+  #     audio_mode: normal
+
+  # - class: SubtitleDuration
+  #   params:
+  #     exp_id: base_text
+  #     experiment_mode: text
+
+
+  - class: SubtitleDuration
+    params:
+      exp_id: base_8_text
+      experiment_mode: text
+      context_window: 2
+      block_size : 2
+      num_samples : 1
+
+
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_6_image
+  #     experiment_mode: image
+  #     prior_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_text
+  #     experiment_mode: text
+
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_6_text
+  #     experiment_mode: text
+  #     prior_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_6_text_image
+  #     experiment_mode: text_image
+  #     prior_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_5_image
+  #     experiment_mode: image
+  #     image_mode: blurred_mixed_sequence
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_5_text_image
+  #     experiment_mode: text_image
+  #     image_mode: blurred_mixed_sequence 
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_1_image
+  #     experiment_mode: image
+  #     verbal_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_1_text
+  #     experiment_mode: text
+  #     verbal_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_1_text_image
+  #     experiment_mode: text_image
+  #     verbal_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_2_image
+  #     experiment_mode: image
+  #     numerical_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_2_text
+  #     experiment_mode: text
+  #     numerical_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_2_text_image
+  #     experiment_mode: text_image
+  #     numerical_steer: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_3_image
+  #     experiment_mode: image
+  #     image_mode: blurred 
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_3_text_image
+  #     experiment_mode: text_image
+  #     image_mode: blurred 
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_4_image
+  #     experiment_mode: image
+  #     context_window: 3
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_4_text
+  #     experiment_mode: text
+  #     context_window: 3
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_4_text_image
+  #     experiment_mode: text_image
+  #     context_window: 3
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_text_image
+  #     experiment_mode: text_image
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_image
+  #     experiment_mode: image
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_8_text
+  #     experiment_mode: text
+  #     reverse_order: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_8_image
+  #     experiment_mode: image
+  #     reverse_order: True
+
+  # - class: ImageLineLengthRatio
+  #   params:
+  #     exp_id: base_8_text_image
+  #     experiment_mode: text_image
+  #     reverse_order: True
+
+  - class: ImageLineLengthRatio
+    params:
+      exp_id: base_7_text_image
+      experiment_mode: text_image
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+  - class: ImageLineLengthRatio
+    params:
+      exp_id: base_7_text
+      experiment_mode: text
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+  - class: ImageLineLengthRatio
+    params:
+      exp_id: base_7_image
+      experiment_mode: image
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_6_image
+  #     experiment_mode: image
+  #     prior_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_6_text
+  #     experiment_mode: text
+  #     prior_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_6_text_image
+  #     experiment_mode: text_image
+  #     prior_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_text_image
+  #     experiment_mode: text_image
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_text
+  #     experiment_mode: text
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_image
+  #     experiment_mode: image
+
+
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_5_image
+  #     experiment_mode: image
+  #     image_mode: blurred_mixed_sequence
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_5_text_image
+  #     experiment_mode: text_image
+  #     image_mode: blurred_mixed_sequence 
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_1_image
+  #     experiment_mode: image
+  #     verbal_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_1_text
+  #     experiment_mode: text
+  #     verbal_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_1_text_image
+  #     experiment_mode: text_image
+  #     verbal_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_2_image
+  #     experiment_mode: image
+  #     numerical_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_2_text
+  #     experiment_mode: text
+  #     numerical_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_2_text_image
+  #     experiment_mode: text_image
+  #     numerical_steer: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_3_image
+  #     experiment_mode: image
+  #     image_mode: blurred 
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_3_text_image
+  #     experiment_mode: text_image
+  #     image_mode: blurred 
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_4_image
+  #     experiment_mode: image
+  #     context_window: 3
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_4_text
+  #     experiment_mode: text
+  #     context_window: 3
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_4_text_image
+  #     experiment_mode: text_image
+  #     context_window: 3
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_8_text
+  #     experiment_mode: text
+  #     reverse_order: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_8_image
+  #     experiment_mode: image
+  #     reverse_order: True
+
+  # - class: ImageMazeDistance
+  #   params:
+  #     exp_id: base_8_text_image
+  #     experiment_mode: text_image
+  #     reverse_order: True
+
+  - class: ImageMazeDistance
+    params:
+      exp_id: base_7_text_image
+      experiment_mode: text_image
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+  - class: ImageMazeDistance
+    params:
+      exp_id: base_7_text
+      experiment_mode: text
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+  - class: ImageMazeDistance
+    params:
+      exp_id: base_7_image
+      experiment_mode: image
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+
+
+
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_6_image
+  #     experiment_mode: image
+  #     prior_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_6_text
+  #     experiment_mode: text
+  #     prior_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_6_text_image
+  #     experiment_mode: text_image
+  #     prior_steer: True
+
+  
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_1_image
+  #     experiment_mode: image
+  #     verbal_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_1_text
+  #     experiment_mode: text
+  #     verbal_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_1_text_image
+  #     experiment_mode: text_image
+  #     verbal_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_2_image
+  #     experiment_mode: image
+  #     numerical_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_2_text
+  #     experiment_mode: text
+  #     numerical_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_2_text_image
+  #     experiment_mode: text_image
+  #     numerical_steer: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_3_image
+  #     experiment_mode: image
+  #     image_mode: blurred 
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_3_text_image
+  #     experiment_mode: text_image
+  #     image_mode: blurred 
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_4_image
+  #     experiment_mode: image
+  #     context_window: 3
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_4_text
+  #     experiment_mode: text
+  #     context_window: 3
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_4_text_image
+  #     experiment_mode: text_image
+  #     context_window: 3
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_5_image
+  #     experiment_mode: image
+  #     image_mode: blurred_mixed_sequence
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_5_text_image
+  #     experiment_mode: text_image
+  #     image_mode: blurred_mixed_sequence
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_text_image
+  #     experiment_mode: text_image
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_text
+  #     experiment_mode: text
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_image
+  #     experiment_mode: image
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_7_image
+  #     experiment_mode: image
+  #     context_window: 25
+  #     block_size : 25
+  #     num_samples : 75
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_8_text
+  #     experiment_mode: text
+  #     reverse_order: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_8_image
+  #     experiment_mode: image
+  #     reverse_order: True
+
+  # - class: ImageMarkerLocation
+  #   params:
+  #     exp_id: base_8_text_image
+  #     experiment_mode: text_image
+  #     reverse_order: True
+
+  - class: ImageMarkerLocation
+    params:
+      exp_id: base_7_text_image
+      experiment_mode: text_image
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+  - class: ImageMarkerLocation
+    params:
+      exp_id: base_7_text
+      experiment_mode: text
+      context_window: 20
+      block_size : 20
+      num_samples : 100
+
+  - class: ImageMarkerLocation
+    params:
+      exp_id: base_7_image
+      experiment_mode: image
+      context_window: 20
+      block_size : 20
+      num_samples : 100

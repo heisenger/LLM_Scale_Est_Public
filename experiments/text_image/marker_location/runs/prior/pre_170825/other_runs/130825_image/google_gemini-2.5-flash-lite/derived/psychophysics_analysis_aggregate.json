@@ -1,0 +1,124 @@
+{
+  "per_range": {
+    "regression_effect": {
+      "long": {
+        "regression_angle": 0.0,
+        "slope": 0.0,
+        "intercept": 0.76,
+        "r_squared": 0.0,
+        "p_value": 1.0,
+        "regression_strength": 1.0,
+        "regression_strength_angular": 1.0
+      },
+      "medium": {
+        "regression_angle": 44.1841230679949,
+        "slope": 0.9719184976916933,
+        "intercept": 0.02641327362976864,
+        "r_squared": 0.9999999999999996,
+        "p_value": 0.0,
+        "regression_strength": 0.02808150230830675,
+        "regression_strength_angular": 0.018130598489002146
+      },
+      "short": {
+        "regression_angle": 0.0,
+        "slope": 0.0,
+        "intercept": 0.15,
+        "r_squared": 0.0,
+        "p_value": 1.0,
+        "regression_strength": 1.0,
+        "regression_strength_angular": 1.0
+      }
+    },
+    "weber_law": {
+      "long": {
+        "error": "Insufficient data for Weber law analysis",
+        "follows_weber_law": false
+      },
+      "medium": {
+        "error": "Insufficient data for Weber law analysis",
+        "follows_weber_law": false
+      },
+      "short": {
+        "error": "Insufficient data for Weber law analysis",
+        "follows_weber_law": false
+      }
+    },
+    "sequential_effect": [
+      {
+        "range_category": "long",
+        "n_runs": 1,
+        "N_total": 2,
+        "r_resp_mean": NaN,
+        "r_stim_mean": NaN,
+        "r_resp_weighted": NaN,
+        "r_stim_weighted": NaN
+      },
+      {
+        "range_category": "medium",
+        "n_runs": 1,
+        "N_total": 2,
+        "r_resp_mean": NaN,
+        "r_stim_mean": NaN,
+        "r_resp_weighted": NaN,
+        "r_stim_weighted": NaN
+      },
+      {
+        "range_category": "short",
+        "n_runs": 1,
+        "N_total": 2,
+        "r_resp_mean": NaN,
+        "r_stim_mean": NaN,
+        "r_resp_weighted": NaN,
+        "r_stim_weighted": NaN
+      }
+    ]
+  },
+  "overall": {
+    "range_effect": {
+      "range_analyses_by_category": {
+        "short": {
+          "slope": 0.0,
+          "regression_strength": 1.0,
+          "r_squared": 0.0,
+          "mean_stimulus_magnitude": 0.365055
+        },
+        "medium": {
+          "slope": 0.9719184976916933,
+          "regression_strength": 0.02808150230830675,
+          "r_squared": 0.9999999999999996,
+          "mean_stimulus_magnitude": 0.6313150000000001
+        },
+        "long": {
+          "slope": 0.0,
+          "regression_strength": 1.0,
+          "r_squared": 0.0,
+          "mean_stimulus_magnitude": 0.765055
+        }
+      },
+      "correlation_analysis": {
+        "correlation_magnitude_regression": -0.1878702533376143,
+        "p_value": 0.879683104032239,
+        "interpretation": "Regression strength decreases with stimulus magnitude (r=-0.188)"
+      },
+      "pairwise_comparison_on_overlap": {
+        "short_vs_medium": {
+          "categories": [
+            "medium",
+            "short"
+          ],
+          "error": "Insufficient data in common bins for t-test.",
+          "t_statistic": NaN,
+          "p_value": NaN,
+          "is_significant": false,
+          "n_overlapping_bins": 0
+        },
+        "short_vs_long": {
+          "error": "No overlapping data found or insufficient data after binning for short vs long."
+        },
+        "medium_vs_long": {
+          "error": "No overlapping data found or insufficient data after binning for medium vs long."
+        }
+      }
+    }
+  }
+}

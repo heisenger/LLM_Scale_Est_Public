@@ -1,0 +1,31 @@
+[
+  {
+    "exp_id": "base_text",
+    "experiment_mode": "text",
+    "multi_modal": false,
+    "audio_mode": "normal",
+    "verbal_steer": false,
+    "numerical_steer": false,
+    "system_prompt": "You are a speech duration estimator.",
+    "user_prompt_zero_shot": "\nYou are given a transcript of a speech: \n\n{text_representation}\n\nEstimate how many seconds it will take to read the sentence out loud.\n\nDo not explain or reason. Only output the final answer as a number:\n\nFinal Answer:\n",
+    "experiment_module": "experiments.text_audio.speech_duration.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_audio/speech_duration/runs/base_text",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_audio/speech_duration/data/experiment_files/3.0_6.0/speech_duration_3.0_6.0_16samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_audio/speech_duration/data/experiment_files/4.5_7.5/speech_duration_4.5_7.5_24samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_audio/speech_duration/data/experiment_files/6.0_9.0/speech_duration_6.0_9.0_19samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_audio",
+    "experiment_name": "speech_duration",
+    "experiment_module": "experiments.text_audio.speech_duration.experiment_run",
+    "base_1_text": "\n        You are given a transcript of a speech: \n        \n        {text_representation}\n        ",
+    "base_1_audio": "\n        You are given an audio recording of a speech.\n        ",
+    "base_1_text_audio": "\n        You are given both an audio recording and a transcript of a speech.\n        ",
+    "base_2": " \n        In both, a sentence is read out loud.\n\n        Here is the transcript:\n        {text_representation}\n        ",
+    "base_3": " \n        Estimate how many seconds it will take to read the sentence out loud.\n\n        Do not explain or reason. Only output the final answer as a number:\n        \n        Final Answer:\n        ",
+    "option_1_vs": "\n        The given data is noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions.     \n    ",
+    "option_1_ns": "\n        The given data is noisy and may contain artifacts. The prior ground truth will be in the range of {value_range}.     \n    "
+  }
+]

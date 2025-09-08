@@ -1,0 +1,30 @@
+[
+  {
+    "exp_id": "130825_image",
+    "system_prompt": "You are a marker location estimator.",
+    "experiment_mode": "image",
+    "multi_modal": true,
+    "image_mode": "normal",
+    "user_prompt_zero_shot": "\nYou are given an image showing a red dot on a horizontal line. \n\nThe images are noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions. Think about values you have already seen.\n\nThe left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\nEstimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\nDo not explain. Only output the final answer as a number between 0 and 1:\n\nFinal Answer:\n",
+    "experiment_module": "experiments.text_image.marker_location.experiment_run",
+    "experiment_path": "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/runs/130825_image",
+    "experiment_files": [
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.1_0.5/marker_loc_0.1_0.5_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.3_0.8/marker_loc_0.3_0.8_100samples.csv",
+      "/Users/julian/Desktop/UCLMsc/Thesis/Huawei_LLM_Scale_Est/llm-benchmark/experiments/text_image/marker_location/data/experiment_files/0.5_0.9/marker_loc_0.5_0.9_100samples.csv"
+    ]
+  },
+  {
+    "experiment_type": "text_image",
+    "experiment_name": "marker_location",
+    "ascii_line_choice": "ascii_line",
+    "text_shift_flag": false,
+    "remapping_test": false,
+    "remapping_test_phase": 1,
+    "process_factor": 0.0,
+    "image_prompt": "\nYou are given an image showing a red dot on a horizontal line. \n\nThe images are noisy and may contain artifacts. You should behave like a Bayesian observer and take into account prior and likelihood in your predictions. Think about values you have already seen.\n\nThe left end of the line corresponds to 0.0, the right end corresponds to 1.0.\n\nEstimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\nDo not explain. Only output the final answer as a number between 0 and 1:\n\nFinal Answer:\n",
+    "text_prompt": "\nYou are given a text-based representation of a horizontal line. \nThe left end corresponds to 0.0, the right end to 1.0.\n\nHere is the line with a red dot marked as \"\"O\"\":\n{text_representation}\n\nEstimate the horizontal position of the center of the dot as a decimal number between 0 and 1.\n\nDo not reason, directly output the answer as a number after Final Answer:\n\nFinal Answer:\n",
+    "text_image_prompt": "\nYou are given both an image and a text-based representation of the same stimulus. \n\nThe images are noisy and may contain artifacts.\n\nIn both, a red dot appears on a horizontal line\nThe left end of the line corresponds to 0.0, and the right end to 1.0.\n\nText representation (the dot is marked as \"\"O\"\"):\n{text_representation}\n\n\nEstimate the horizontal position of the **center** of the red dot as a decimal number between 0 and 1.\nDo not explain. Only output the final answer as a number between 0 and 1:\nFinal Answer:\n",
+    "text_prompt_additional_process": "\nDo not reason, directly output the answer as a number after Final Answer:\n\nYou are given a text-based representation of a horizontal line. \nThe left end corresponds to 0.0, the right end to 1.0.\n\nHere is the line with the red dot marked as \"O\":\n{text_representation}\n\nNow, imagine the line the dot is shifted to the right by {process_factor} units.\n\nEstimate the horizontal position of the center of the dot as a decimal number between 0 and 1.\n\nFinal Answer:\n"
+  }
+]
